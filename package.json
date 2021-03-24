@@ -1,0 +1,27 @@
+{
+  "name": "sdcloadbalancer",
+  "version": "1.0.0",
+  "description": "A load balancer server for my SDC project",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "newrelic": "^7.2.0",
+    "nodemon": "^2.0.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "nodemon server/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chris-McVey/SDCLoadBalancer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Chris-McVey/SDCLoadBalancer/issues"
+  },
+  "homepage": "https://github.com/Chris-McVey/SDCLoadBalancer#readme"
+}
