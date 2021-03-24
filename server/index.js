@@ -1,6 +1,6 @@
 require('newrelic');
 const express = require('express');
-const bodyParser = require('body-parser');
+// const bodyParser = require('body-parser');
 const request = require('request');
 
 
@@ -17,8 +17,8 @@ const handler = (req, res) => {
 const app = express().get('*', handler).post('*', handler).put('*', handler);
 const port = 3000;
 
-app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({ extended: true }));
+// app.use(bodyParser.json());
+// app.use(bodyParser.urlencoded({ extended: true }));
 
 
 
